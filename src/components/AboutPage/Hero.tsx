@@ -21,11 +21,11 @@ export default function Hero() {
             like Next.js and React, I specialize in crafting seamless,
             high-performance web apps. Whether it&apos;s optimizing user experiences
             with Tailwind CSS, integrating APIs, or experimenting with new tech,
-            I'm always looking for ways to build better, faster, and more
+            I&apos;m always looking for ways to build better, faster, and more
             efficient solutions.
           </p>
           <h2 className="mt-6 font-sans font-semibold text-2xl md:text-3xl lg:text-4xl text-black dark:text-white">
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           <p className="mt-4">
             When I&apos;m not coding, you&apos;ll probably find me immersed in gaming,
