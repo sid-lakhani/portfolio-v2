@@ -1,12 +1,6 @@
 import Typewriter from "@/fancy/components/text/typewriter";
 
 export default function Hero() {
-  const roles = [
-    '"Full Stack Developer";',
-    '"Software Engineer";',
-    '"Tech Enthusiast";',
-    '"Problem Solver";',
-  ];
   return (
     <div className="relative z-10 h-[93dvh] w-full flex flex-col items-start justify-center px-[25rem] whitespace-pre">
       <div className="flex items-center justify-between w-full">
@@ -15,7 +9,7 @@ export default function Hero() {
             Hey, welcome to my portfolio! 👋
           </h2>
           <h1 className="font-poppins text-6xl font-normal text-gray-900 dark:text-gray-300">
-            I'm{" "}
+            I&apos;m{" "}
             <span className="text-black dark:text-white font-semibold">
               Siddhesh Lakhani
             </span>
@@ -25,7 +19,12 @@ export default function Hero() {
             <span className="text-yellow-400">{"role "}</span>
             <span className="text-white">{"= "}</span>
             <Typewriter
-              text={roles}
+              text={[
+                "'Full Stack Developer';",
+                "'Software Engineer';",
+                "'Tech Enthusiast';",
+                "'Problem Solver';",
+              ]}
               speed={60}
               className="text-green-400 dark:text-green-300 border-b"
               waitTime={1000}

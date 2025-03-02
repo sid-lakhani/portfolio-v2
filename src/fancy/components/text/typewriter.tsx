@@ -56,58 +56,39 @@ const Typewriter = ({
   const texts = Array.isArray(text) ? text : [text]
 
   useEffect(() => {
-    let timeout: NodeJS.Timeout
+    if (!texts.length) return
 
+    let timeout: NodeJS.Timeout
     const currentText = texts[currentTextIndex]
 
-    const startTyping = () => {
-      if (isDeleting) {
-        if (displayText === "") {
-          setIsDeleting(false)
-          if (currentTextIndex === texts.length - 1 && !loop) {
-            return
-          }
-          setCurrentTextIndex((prev) => (prev + 1) % texts.length)
-          setCurrentIndex(0)
-          timeout = setTimeout(() => {}, waitTime)
-        } else {
-          timeout = setTimeout(() => {
-            setDisplayText((prev) => prev.slice(0, -1))
-          }, deleteSpeed)
-        }
+    if (isDeleting) {
+      // Deleting characters
+      if (displayText.length > 0) {
+        timeout = setTimeout(() => {
+          setDisplayText((prev) => prev.slice(0, -1))
+        }, deleteSpeed)
       } else {
-        if (currentIndex < currentText.length) {
-          timeout = setTimeout(() => {
-            setDisplayText((prev) => prev + currentText[currentIndex])
-            setCurrentIndex((prev) => prev + 1)
-          }, speed)
-        } else if (texts.length > 1) {
-          timeout = setTimeout(() => {
-            setIsDeleting(true)
-          }, waitTime)
-        }
+        setIsDeleting(false)
+        setCurrentTextIndex((prev) => (prev + 1) % texts.length)
+        setCurrentIndex(0)
+        timeout = setTimeout(() => {}, waitTime)
+      }
+    } else {
+      // Typing characters
+      if (currentIndex < currentText.length) {
+        timeout = setTimeout(() => {
+          setDisplayText((prev) => prev + currentText[currentIndex])
+          setCurrentIndex((prev) => prev + 1)
+        }, speed)
+      } else {
+        timeout = setTimeout(() => {
+          setIsDeleting(true)
+        }, waitTime)
       }
     }
 
-    // Apply initial delay only at the start
-    if (currentIndex === 0 && !isDeleting && displayText === "") {
-      timeout = setTimeout(startTyping, initialDelay)
-    } else {
-      startTyping()
-    }
-
     return () => clearTimeout(timeout)
-  }, [
-    currentIndex,
-    displayText,
-    isDeleting,
-    speed,
-    deleteSpeed,
-    waitTime,
-    texts,
-    currentTextIndex,
-    loop,
-  ])
+  }, [currentIndex, displayText, isDeleting, speed, deleteSpeed, waitTime, texts, currentTextIndex, loop, initialDelay])
 
   return (
     <div className={`inline whitespace-pre-wrap tracking-tight ${className}`}>
