@@ -1,0 +1,35 @@
+import { socials } from "@/lib/constants";
+import Link from "next/link";
+import React from "react";
+
+export default function Footer() {
+  return (
+    <div className="w-full overflow-auto">
+      <div className="sticky bg-gray-900 dark:bg-gray-300 bottom-0 left-0 w-full h-80 flex justify-center items-center">
+        <div className="relative w-full h-full flex justify-end px-12 text-right items-start py-12 text-white dark:text-black">
+          <div className="font-poppins flex space-x-12 sm:space-x-16 md:space-x-24 text-sm sm:text-lg md:text-xl">
+            <ul>
+              <Link href="/"><li className="hover:underline cursor-pointer">Home</li></Link>
+              <Link href="/about"><li className="hover:underline cursor-pointer">About</li></Link>
+            </ul>
+            <ul>
+              <Link href="/projects"><li className="hover:underline cursor-pointer">Projects</li></Link>
+              <Link href="/skills"><li className="hover:underline cursor-pointer">Skills</li></Link>
+              <Link href="/contact"><li className="hover:underline cursor-pointer">Contact</li></Link>
+            </ul>
+            <ul>
+              {socials.map((social) => (
+                <Link key={social.url} href={social.url}>
+                  <li className="cursor-pointer hover:underline">{social.name}</li>
+                </Link>
+              ))}
+            </ul>
+          </div>
+          <h2 className="absolute bottom-0 left-0 translate-y-1/3 lg:text-[140px] text-white dark:text-black font-poppins italic">
+            sidlakhani
+          </h2>
+        </div>
+      </div>
+    </div>
+  );
+}
