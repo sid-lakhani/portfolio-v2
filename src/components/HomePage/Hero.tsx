@@ -1,6 +1,4 @@
-import React from "react";
 import Typewriter from "@/fancy/components/text/typewriter";
-import Image from "next/image";
 
 export default function Hero() {
   const roles = [
