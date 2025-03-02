@@ -1,9 +1,14 @@
+import Hero from "@/components/AboutPage/Hero";
+import Footer from "@/components/universal/Footer";
+import Header from "@/components/universal/Header";
 import React from "react";
 
 export default function Page() {
   return (
-    <div className="h-screen w-screen flex items-center justify-center">
-      about
+    <div className="min-h-screen min-w-screen">
+      <Header />
+      <Hero />
+      <Footer />
     </div>
   );
 }

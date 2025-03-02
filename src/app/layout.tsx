@@ -12,7 +12,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${Cascadia.variable} ${poppins.variable} antialiased`}>
+      <body className={`${Cascadia.variable} ${poppins.variable} antialiased bg-white dark:bg-black transition-colors duration-300`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

@@ -13,7 +13,7 @@ import {
 
 export default function Header() {
   return (
-    <header className="sticky top-6 mx-auto w-[90%] max-w-6xl flex items-center justify-between px-8 py-3 bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-full border border-black/10 dark:border-white/10 z-[999]">
+    <header className="sticky top-6 mx-auto w-[90%] md:w-[80%] max-w-6xl flex items-center justify-between px-8 py-3 dark:bg-black/30 bg-white/30 backdrop-blur-md rounded-full border border-black/50 dark:border-white/50 z-[999]">
       <h1 className="text-2xl font-poppins font-medium tracking-tight text-gray-900 hover:text-black dark:text-white hover:dark:text-white transition-colors duration-100">
         <Link href={"/"}>sidlakhani</Link>
       </h1>
