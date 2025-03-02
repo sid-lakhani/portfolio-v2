@@ -19,7 +19,7 @@ export default function Header() {
       </h1>
 
       {/* Navigation - Desktop */}
-      <nav className="hidden md:flex gap-6">
+      <nav className="hidden md:flex gap-6 text-sm lg:text-lg">
         {navLinks.map((link) => (
           <Link
             key={link.url}
@@ -86,7 +86,7 @@ export default function Header() {
             href={social.url}
             className="cursor-pointer bg-black/200 hover:bg-black/10 dark:hover:bg-white/10 duration-100 transition-colors p-2 rounded-md"
           >
-            <social.logo className="text-gray-900 dark:text-white size-5" />
+            <social.logo className="text-gray-900 dark:text-white md:size-4 size-5" />
           </Link>
         ))}
         <ThemeToggle />
