@@ -4,10 +4,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="w-full overflow-auto">
-      <div className="sticky bg-gray-900 dark:bg-gray-300 bottom-0 left-0 w-full h-80 flex justify-center items-center">
+    <div className="w-full overflow-hidden">
+      <div className="sticky bg-gray-900 dark:bg-gray-300 bottom-0 left-0 w-full h-fit lg:h-80 flex justify-center items-center">
         <div className="relative w-full h-full flex justify-end px-12 text-right items-start py-12 text-white dark:text-black">
-          <div className="font-poppins flex space-x-12 sm:space-x-16 md:space-x-24 text-sm sm:text-lg md:text-xl">
+          <div className="z-10 font-poppins flex space-x-12 sm:space-x-16 md:space-x-24 text-sm sm:text-lg md:text-xl">
             <ul>
               <Link href="/"><li className="hover:underline cursor-pointer">Home</li></Link>
               <Link href="/about"><li className="hover:underline cursor-pointer">About</li></Link>
@@ -25,7 +25,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <h2 className="absolute bottom-0 left-0 translate-y-1/3 lg:text-[140px] text-white dark:text-black font-poppins italic">
+          <h2 className="z-0 absolute bottom-0 left-0 translate-y-1/3 text-5xl md:text-[100px] lg:text-[140px] text-white dark:text-black font-poppins italic">
             sidlakhani
           </h2>
         </div>
