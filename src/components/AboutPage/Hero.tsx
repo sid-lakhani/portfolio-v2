@@ -5,7 +5,10 @@ import PageHeader from "../universal/PageHeader";
 export default function Hero() {
   return (
     <div className="min-h-[100dvh] w-full px-[10%] lg:px-[20%]">
-      <PageHeader title="Know Me Better" subtitle="A glimpse into who I am and what I do." />
+      <PageHeader
+        title="Know Me Better"
+        subtitle="A glimpse into who I am and what I do."
+      />
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full gap-12 lg:gap-0 mt-6 md:px-4 mb-12">
         <div className="flex text-base md:text-lg text-gray-600 dark:text-gray-300 max-w-2xl font-poppins flex-col items-start gap-2 tracking-tight">
           <p className="mt-4">
@@ -30,13 +33,18 @@ export default function Hero() {
             game-winning moment.
           </p>
           <p>Let&apos;s build something awesome together!</p>
-          <p className="text-black dark:text-white border-b">
+          <p className="text-black dark:text-white border-b mt-2">
             <Link href="/contact">Get in touch</Link>
           </p>
         </div>
         <div className="w-[300px] h-[300px] rounded-full flex justify-center items-center bg-black dark:bg-white text-white dark:text-black">
-          {/* <Image src="/me.jpg" width={300} height={300} alt="Hero" classname="rounded-full overflow-scroll" /> */}
-          Image
+          {/* <img
+            src="/open-graph/me.jpg"
+            width={300}
+            height={300}
+            alt="Hero"
+            className="rounded-full object-contain"
+          /> */}
         </div>
       </div>
     </div>

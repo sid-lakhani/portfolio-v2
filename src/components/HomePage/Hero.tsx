@@ -35,8 +35,13 @@ export default function Hero() {
           </div>
         </div>
         <div className="w-[300px] h-[300px] rounded-full flex justify-center items-center bg-black dark:bg-white text-white dark:text-black">
-          {/* <Image src="/me.jpg" width={300} height={300} alt="Hero" classname="rounded-full overflow-scroll" /> */}
-          Image
+          {/* <img
+            src="/open-graph/me.jpg"
+            width={300}
+            height={300}
+            alt="Hero"
+            className="rounded-full object-contain"
+          /> */}
         </div>
       </div>
     </div>

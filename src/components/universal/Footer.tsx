@@ -5,7 +5,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="w-full overflow-hidden">
-      <div className="sticky bg-gray-900 dark:bg-gray-300 bottom-0 left-0 w-full h-fit lg:h-80 flex justify-center items-center">
+      <div className="sticky bg-gray-900 dark:bg-gray-300 bottom-0 left-0 h-fit lg:h-80 flex justify-center items-center">
         <div className="relative w-full h-full flex justify-end px-12 text-right items-start py-12 text-white dark:text-black">
           <div className="z-10 font-poppins flex space-x-12 sm:space-x-16 md:space-x-24 text-sm sm:text-lg md:text-xl">
             <ul>

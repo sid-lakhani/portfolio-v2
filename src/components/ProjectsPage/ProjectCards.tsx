@@ -1,7 +1,7 @@
 import Image from "next/image";
 import PageHeader from "../universal/PageHeader";
 import { projects } from "@/lib/constants";
-import { Globe, Github } from "lucide-react";
+import { Globe, Github, Link } from "lucide-react";
 
 export default function ProjectCards() {
   return (
@@ -14,9 +14,9 @@ export default function ProjectCards() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-white dark:bg-gray-950 border border-white/10 p-5 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col items-center text-center"
+            className="bg-white dark:bg-gray-950 border border-white/10 p-5 rounded-2xl shadow-black/30 dark:shadow-white/30 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center"
           >
-            <div className="w-[320px] h-[200px] relative">
+            <div className="w-full aspect-[14/9] relative">
               <Image
                 src={project.image}
                 alt={project.title}
@@ -35,9 +35,9 @@ export default function ProjectCards() {
                   href={project.website}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 hover:text-blue-700 transition-all flex items-center gap-2"
+                  className="text-blue-500 hover:text-blue-700 hover:scale-105 transition-all flex items-center gap-2"
                 >
-                  <Globe size={20} />  
+                  <Link size={28} />  
                 </a>
               )}
               {project.github && (
@@ -45,9 +45,9 @@ export default function ProjectCards() {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-500 hover:text-gray-700 transition-all flex items-center gap-2"
+                  className="text-gray-500 hover:text-gray-700 hover:scale-105 transition-all flex items-center gap-2"
                 >
-                  <Github size={20} />
+                  <Github size={28} />
                 </a>
               )}
             </div>
