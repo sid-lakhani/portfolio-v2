@@ -1,7 +1,7 @@
 import Image from "next/image";
 import PageHeader from "../universal/PageHeader";
 import { projects } from "@/lib/constants";
-import { Globe, Github, Link } from "lucide-react";
+import { Github, Link } from "lucide-react";
 
 export default function ProjectCards() {
   return (
