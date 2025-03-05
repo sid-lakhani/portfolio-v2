@@ -4,7 +4,7 @@ import { IconType } from "react-icons";
 
 export default function Hero() {
   return (
-    <div className="min-h-screen w-full px-[10%] lg:px-[20%]">
+    <div className="h-full w-full px-[10%] lg:px-[20%]">
       <PageHeader
         title="My Tech Stack"
         subtitle="The technologies and tools I use to build, innovate, and create."
