@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Page() {
   return (
-    <div className="min-h-screen min-w-screen">
+    <div className="min-h-screen">
       <Header />
       <ProjectCards />
       <Footer />
