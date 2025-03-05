@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import PageHeader from "../universal/PageHeader";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -57,7 +58,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="w-[400px] h-[400px] rounded-full flex justify-center items-center">
-          <img
+          <Image
             src="/me.jpg"
             width={400}
             height={400}
