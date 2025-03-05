@@ -9,42 +9,61 @@ export default function Hero() {
         title="Know Me Better"
         subtitle="A glimpse into who I am and what I do."
       />
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full gap-12 lg:gap-0 mt-6 md:px-4 mb-12">
-        <div className="flex text-base md:text-lg text-gray-600 dark:text-gray-300 max-w-2xl font-poppins flex-col items-start gap-2 tracking-tight">
-          <p className="mt-4">
-            I&apos;m a passionate developer, tech enthusiast, and gamer who
-            loves building cool stuff on the web. I thrive on problem-solving,
-            exploring new technologies, and pushing the boundaries of
-            what&apos;s possible. With experience in JavaScript, TypeScript, and
-            frameworks like Next.js and React, I specialize in crafting
-            seamless, high-performance web apps. Whether it&apos;s optimizing
-            user experiences with Tailwind CSS, integrating APIs, or
-            experimenting with new tech, I&apos;m always looking for ways to
-            build better, faster, and more efficient solutions.
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full gap-12 lg:gap-0 lg:mt-6 md:px-4 mb-12">
+        <div className="flex text-base md:text-lg text-gray-600 dark:text-gray-300 max-w-2xl font-poppins flex-col items-start lg:gap-2 tracking-tight">
+          <p className="lg:mt-4">
+            I&apos;m a passionate <strong>developer</strong>,{" "}
+            <strong>tech enthusiast</strong>, and <strong>gamer</strong> who
+            loves building cool stuff on the web. My journey started with{" "}
+            <strong>JavaScript </strong>
+            and <strong>TypeScript</strong>, crafting seamless, high-performance
+            web apps with
+            <strong> Next.js</strong>, <strong>React</strong>, and{" "}
+            <strong>Tailwind CSS</strong>. Lately, I&apos;ve been diving deeper
+            into <strong>Linux</strong>—tweaking my workflow, optimizing
+            performance, and exploring self-hosting—currently running{" "}
+            <strong>Garuda Linux</strong> for its speed and flexibility.
+          </p>
+          <p>
+            I believe in <strong>minimalism</strong>, both in design and
+            functionality. That reflects in my work, whether it's a{" "}
+            <strong>clean, efficient codebase</strong> or a
+            <strong> sleek, no-frills portfolio</strong> that focuses on what
+            truly matters.
+            <strong> Problem-solving</strong> is what drives me, whether
+            it&apos;s <strong>debugging tricky code</strong>,{" "}
+            <strong>integrating APIs</strong>, or{" "}
+            <strong>fine-tuning my system</strong> for peak efficiency.
           </p>
           <h2 className="mt-6 font-sans font-semibold text-2xl md:text-3xl lg:text-4xl text-black dark:text-white">
             Let&apos;s Connect
           </h2>
           <p className="mt-4">
             When I&apos;m not coding, you&apos;ll probably find me immersed in
-            gaming, vibing to music, or pushing my limits in sports. Tech,
-            music, and competition fuel my energy, and I&apos;m always up for a
-            challenge—whether it&apos;s debugging a tricky issue or hitting a
-            game-winning moment.
+            <strong> gaming</strong>, vibing to <strong>music</strong>, or
+            pushing my limits in <strong>sports</strong>.
+            <strong> Tech, music, and competition</strong> fuel my energy, and
+            I&apos;m always up for a challenge—whether it&apos;s{" "}
+            <strong>debugging a tricky issue</strong> or{" "}
+            <strong>hitting a game-winning moment</strong>.
           </p>
-          <p>Let&apos;s build something awesome together!</p>
+          <p>
+            Let&apos;s build something awesome together!
+          </p>
           <p className="text-black dark:text-white border-b mt-2">
-            <Link href="/contact">Get in touch</Link>
+            <Link href="/contact">
+              <strong>Get in touch</strong>
+            </Link>
           </p>
         </div>
-        <div className="w-[300px] h-[300px] rounded-full flex justify-center items-center bg-black dark:bg-white text-white dark:text-black">
-          {/* <img
-            src="/open-graph/me.jpg"
-            width={300}
-            height={300}
+        <div className="w-[400px] h-[400px] rounded-full flex justify-center items-center">
+          <img
+            src="/me.jpg"
+            width={400}
+            height={400}
             alt="Hero"
             className="rounded-full object-contain"
-          /> */}
+          />
         </div>
       </div>
     </div>

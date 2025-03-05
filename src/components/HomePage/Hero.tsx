@@ -34,14 +34,14 @@ export default function Hero() {
             <span className="text-white">{""}</span>
           </div>
         </div>
-        <div className="w-[300px] h-[300px] rounded-full flex justify-center items-center bg-black dark:bg-white text-white dark:text-black">
-          {/* <img
-            src="/open-graph/me.jpg"
-            width={300}
-            height={300}
+        <div className="w-[400px] h-[400px] rounded-full flex justify-center items-center">
+          <img
+            src="/me.jpg"
+            width={400}
+            height={400}
             alt="Hero"
             className="rounded-full object-contain"
-          /> */}
+          />
         </div>
       </div>
     </div>
