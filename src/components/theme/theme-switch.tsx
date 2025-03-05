@@ -17,13 +17,13 @@ export function ThemeToggle() {
 
   return (
     <button
-      className="cursor-pointer bg-black/200 hover:bg-black/10 dark:hover:bg-white/10 duration-100 transition-colors p-2 rounded-md"
+      className="cursor-pointer bg-black/200 hover:bg-black/10 dark:hover:bg-white/10 duration-300 transition-colors p-2 rounded-md"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
       {theme === "dark" ? (
-        <Sun className="text-white size-5" />
+        <Sun className="text-white hover:text-accent duration-300 transition-colors size-5 md:size-4 lg:size-5" />
       ) : (
-        <Moon className="text-gray-900 size-5 md:size-4 lg:size-5" />
+        <Moon className="text-gray-900 hover:text-accent duration-300 transition-colors size-5 md:size-4 lg:size-5" />
       )}
       <span className="sr-only">Toggle theme</span>
     </button>

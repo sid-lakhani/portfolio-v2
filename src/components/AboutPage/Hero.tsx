@@ -5,12 +5,12 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="min-h-[100dvh] w-full px-[10%] lg:px-[20%]">
+    <div className="h-full w-full px-[10%] lg:px-[20%]">
       <PageHeader
         title="Know Me Better"
         subtitle="A glimpse into who I am and what I do."
       />
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full gap-12 lg:gap-0 lg:mt-6 md:px-4 mb-12">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full gap-12 lg:gap-0 lg:mt-6 md:px-4 mb-24">
         <div className="flex text-base md:text-lg text-gray-600 dark:text-gray-300 max-w-2xl font-poppins flex-col items-start lg:gap-2 tracking-tight">
           <p className="lg:mt-4">
             I&apos;m a passionate <strong>developer</strong>,{" "}
@@ -25,7 +25,7 @@ export default function Hero() {
             performance, and exploring self-hosting—currently running{" "}
             <strong>Garuda Linux</strong> for its speed and flexibility.
           </p>
-          <p>
+          <p className="mt-4">
             I believe in <strong>minimalism</strong>, both in design and
             functionality. That reflects in my work, whether it's a{" "}
             <strong>clean, efficient codebase</strong> or a
@@ -48,7 +48,7 @@ export default function Hero() {
             <strong>debugging a tricky issue</strong> or{" "}
             <strong>hitting a game-winning moment</strong>.
           </p>
-          <p>
+          <p className="mt-4">
             Let&apos;s build something awesome together!
           </p>
           <p className="text-black dark:text-white border-b mt-2">
@@ -59,7 +59,7 @@ export default function Hero() {
         </div>
         <div className="w-[400px] h-[400px] rounded-full flex justify-center items-center">
           <Image
-            src="/me.jpg"
+            src="/me.png"
             width={400}
             height={400}
             alt="Hero"

@@ -5,12 +5,12 @@ import { Github, Link } from "lucide-react";
 
 export default function ProjectCards() {
   return (
-    <div className="min-h-[100dvh] w-full px-[10%] lg:px-[20%]">
+    <div className="h-full w-full px-[10%] lg:px-[20%]">
       <PageHeader
         title="My Projects & Work"
         subtitle="A showcase of the projects and ideas I’ve brought to life."
       />
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 mt-12 mb-12 md:px-8 lg:px-12">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 mt-12 mb-24 md:px-8 lg:px-12">
         {projects.map((project, index) => (
           <div
             key={index}
