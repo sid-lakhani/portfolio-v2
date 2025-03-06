@@ -5,12 +5,12 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="h-full w-full px-[10%] lg:px-[20%]">
+    <div className="min-h-screen w-full px-[10%] lg:px-[20%]">
       <PageHeader
         title="Know Me Better"
         subtitle="A glimpse into who I am and what I do."
       />
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full gap-12 lg:gap-0 lg:mt-6 md:px-4 mb-24">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full gap-12 lg:gap-0 lg:mt-6 md:px-4 pb-24">
         <div className="flex text-base md:text-lg text-gray-600 dark:text-gray-300 max-w-2xl font-poppins flex-col items-start lg:gap-2 tracking-tight">
           <p className="lg:mt-4">
             I&apos;m a passionate <strong>developer</strong>,{" "}
