@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://v2.sidlakhani.tech/sitemap.xml",
+    sitemap: "https://sidlakhani.tech/sitemap.xml",
   };
 }
