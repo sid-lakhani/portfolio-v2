@@ -12,7 +12,7 @@ export default function ContactLinks() {
         {/* Location */}
         <div className="flex items-center gap-4 text-gray-700 dark:text-gray-300">
           <FaMapMarkerAlt className="text-xl text-gray-500 dark:text-gray-400" />
-          <span className="text-lg font-medium">Mumbai, India</span>
+          <span className="text-base md:text-lg font-medium">Mumbai, India</span>
         </div>
 
         {/* Email */}
@@ -23,7 +23,7 @@ export default function ContactLinks() {
           className="flex items-center gap-4 text-gray-700 dark:text-gray-300 hover:text-accent dark:hover:text-accent transition"
         >
           <FaEnvelope className="text-xl text-gray-500 dark:text-gray-400" />
-          <span className="text-lg font-medium">lakhani.siddhesh@gmail.com</span>
+          <span className="text-base md:text-lg font-medium">lakhani.siddhesh@gmail.com</span>
         </Link>
 
         {/* GitHub */}
@@ -34,7 +34,7 @@ export default function ContactLinks() {
           className="flex items-center gap-4 text-gray-700 dark:text-gray-300 hover:text-accent dark:hover:text-accent transition"
         >
           <FaGithub className="text-xl text-gray-500 dark:text-gray-400" />
-          <span className="text-lg font-medium">sid-lakhani</span>
+          <span className="text-base md:text-lg font-medium">sid-lakhani</span>
         </Link>
 
         {/* LinkedIn */}
@@ -45,7 +45,7 @@ export default function ContactLinks() {
           className="flex items-center gap-4 text-gray-700 dark:text-gray-300 hover:text-accent dark:hover:text-accent transition"
         >
           <FaLinkedin className="text-xl text-gray-500 dark:text-gray-400" />
-          <span className="text-lg font-medium">Siddhesh Lakhani</span>
+          <span className="text-base md:text-lg font-medium">Siddhesh Lakhani</span>
         </Link>
 
         {/* Phone */}
@@ -54,7 +54,7 @@ export default function ContactLinks() {
           className="flex items-center gap-4 text-gray-700 dark:text-gray-300 hover:text-accent dark:hover:text-accent transition"
         >
           <FaPhone className="scale-x-[-1] text-xl text-gray-500 dark:text-gray-400" />
-          <span className="text-lg font-medium">+91 70219 69223</span>
+          <span className="text-base md:text-lg font-medium">+91 70219 69223</span>
         </Link>
 
         {/* Resume Download Button */}
