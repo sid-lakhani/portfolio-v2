@@ -8,7 +8,7 @@ export default function ContactLinks() {
       <PageHeader title="Get in Touch" subtitle="Let's create something extraordinary—reach out today!" />
 
       {/* Contact Card */}
-      <div className="mt-8 w-full max-w-md sm:max-w-lg bg-gray-800 dark:bg-gray-900 border border-gray-700 rounded-2xl shadow-lg p-6 flex flex-col gap-5">
+      <div className="mt-8 w-full max-w-md sm:max-w-lg bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-lg p-6 flex flex-col gap-5 text-gray-900 dark:text-white">
         {/* Location */}
         <div className="flex items-center gap-3 text-gray-300">
           <FaMapMarkerAlt className="text-lg" />

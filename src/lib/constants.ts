@@ -5,19 +5,26 @@ import {
   SiTailwindcss,
   SiPostgresql,
   SiStrapi,
-  SiNginx, SiJavascript,
+  SiNginx,
+  SiJavascript,
   SiTypescript,
   SiHtml5,
   SiCss3,
-  SiGit, SiLinux,
+  SiGit,
+  SiLinux,
   SiVercel,
-  SiSupabase, SiPython,
+  SiSupabase,
+  SiPython,
   SiCplusplus,
   SiFirebase,
   SiClerk,
   SiGithub,
   SiCanva,
-  SiUnrealengine
+  SiUnrealengine,
+  SiGnubash,
+  SiFishshell,
+  SiPm2,
+  SiFigma,
 } from "react-icons/si";
 
 export const navLinks = [
@@ -114,6 +121,9 @@ export const skills = {
   devops: [
     { name: "Nginx", icon: SiNginx },
     { name: "Linux", icon: SiLinux },
+    { name: "Bash", icon: SiGnubash },
+    { name: "Fish", icon: SiFishshell }, 
+    { name: "PM2", icon: SiPm2 }, 
   ],
   tools: [
     { name: "Git", icon: SiGit },
@@ -123,5 +133,6 @@ export const skills = {
   misc: [
     { name: "Canva", icon: SiCanva },
     { name: "Unreal Engine", icon: SiUnrealengine },
+    { name: "Figma", icon: SiFigma },
   ],
 };
