@@ -59,7 +59,7 @@ export default function ContactLinks() {
 
         {/* Resume Download Button */}
         <Link
-          href="/Siddhesh_Lakhani_Resume.pdf" // Ensure the file is in the public folder
+          href="/resume.pdf" 
           download
           className="mt-4 bg-accent hover:bg-accent/80 text-white  font-semibold py-3 px-6 rounded-xl text-center transition-all duration-300 shadow-md"
         >

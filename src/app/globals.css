@@ -5,7 +5,6 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-cascadia: "Cascadia", "sans-serif";
   --font-poppins: "Poppins", "sans-serif";
   --color-accent: #A394CF;
   --breakpoint-3xl: 120rem;

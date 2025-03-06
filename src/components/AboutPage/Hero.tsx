@@ -62,7 +62,7 @@ export default function Hero() {
         </div>
         <div className="w-[400px] h-[400px] rounded-full flex justify-center items-center">
           <Image
-            src="/me.png"
+            src="/about.png"
             width={400}
             height={400}
             alt="Hero"
