@@ -51,9 +51,12 @@ export default function Hero() {
           <p className="mt-4">
             Let&apos;s build something awesome together!
           </p>
-          <p className="text-black dark:text-white border-b mt-2">
+          <p className="text-black dark:text-white underline mt-2 flex flex-row gap-2">
             <Link href="/contact">
               <strong>Get in touch</strong>
+            </Link>
+            <Link href="/resume.pdf">
+              <strong className="ml-2">My Resume</strong>
             </Link>
           </p>
         </div>
