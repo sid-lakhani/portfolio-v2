@@ -31,6 +31,11 @@ export default function RootLayout({
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="0868d5da-1ba5-449a-b831-325374a721d5"
+        ></script>
       </head>
       <body
         className={`${poppins.variable} antialiased bg-gradient-to-tl from-gray-300 to-white dark:from-gray-900 dark:to-black transition-colors duration-300`}
