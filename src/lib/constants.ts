@@ -25,6 +25,10 @@ import {
   SiFishshell,
   SiPm2,
   SiFigma,
+  SiFramer,
+  SiDocker,
+  SiPostman,
+  SiBlender,
 } from "react-icons/si";
 
 export const navLinks = [
@@ -108,14 +112,14 @@ export const skills = {
     { name: "Tailwind CSS", icon: SiTailwindcss },
     { name: "CSS3", icon: SiCss3 },
     { name: "HTML5", icon: SiHtml5 },
+    { name: "Framer Motion", icon: SiFramer },
   ],
   backend: [
     { name: "PostgreSQL", icon: SiPostgresql },
-    { name: "Strapi", icon: SiStrapi },
     { name: "Python", icon: SiPython },
     { name: "C++", icon: SiCplusplus },
+    { name: "Docker", icon: SiDocker },
     { name: "Firebase", icon: SiFirebase },
-    { name: "Clerk", icon: SiClerk },
     { name: "Supabase", icon: SiSupabase },
   ],
   devops: [
@@ -129,10 +133,14 @@ export const skills = {
     { name: "Git", icon: SiGit },
     { name: "GitHub", icon: SiGithub },
     { name: "Vercel", icon: SiVercel },
+    { name: "Postman", icon: SiPostman }, 
+    { name: "Clerk", icon: SiClerk },
+    { name: "Strapi", icon: SiStrapi },
   ],
   misc: [
     { name: "Canva", icon: SiCanva },
     { name: "Unreal Engine", icon: SiUnrealengine },
+    { "name": "Blender", icon: SiBlender },
     { name: "Figma", icon: SiFigma },
   ],
 };
