@@ -48,7 +48,7 @@ export default function Hero() {
             <Link href="/contact">
               <strong>Get in touch</strong>
             </Link>
-            <Link href="/resume.pdf">
+            <Link href="/Resume.pdf">
               <strong className="ml-2">My Resume</strong>
             </Link>
           </p>

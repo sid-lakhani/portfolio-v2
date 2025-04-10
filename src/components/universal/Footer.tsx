@@ -11,7 +11,7 @@ export default function Footer() {
             <ul>
               <Link href="/"><li className="hover:underline cursor-pointer">Home</li></Link>
               <Link href="/about"><li className="hover:underline cursor-pointer">About</li></Link>
-              <Link href="/resume.pdf"><li className="hover:underline cursor-pointer">Resume</li></Link>
+              <Link href="/Resume.pdf"><li className="hover:underline cursor-pointer">Resume</li></Link>
             </ul>
             <ul>
               <Link href="/projects"><li className="hover:underline cursor-pointer">Projects</li></Link>
