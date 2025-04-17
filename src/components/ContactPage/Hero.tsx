@@ -63,7 +63,7 @@ export default function ContactLinks() {
           download
           className="mt-4 bg-accent hover:bg-accent/80 text-white  font-semibold py-3 px-6 rounded-xl text-center transition-all duration-300 shadow-md"
         >
-          📄 Download Resume
+          📄 Resume
         </Link>
       </div>
     </div>
