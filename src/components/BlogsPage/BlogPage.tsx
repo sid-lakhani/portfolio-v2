@@ -81,7 +81,7 @@ export default function BlogPage({ slugUrl }: { slugUrl: string }) {
           title={blog.title}
           subtitle={`${blog.date} ~ Siddhesh Lakhani`}
         />
-        <div className="flex flex-col justify-center gap-8 p-4 md:p-8">
+        <div className="flex flex-col justify-center gap-8 md:p-8">
           <MarkdownRenderer content={markdownContent} />
           <Link href="/blogs">
             <button className="cursor-pointer mb-8 rounded-xl border font-montserrat font-bold text-xs px-4 py-2">
