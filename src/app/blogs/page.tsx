@@ -1,21 +1,22 @@
-import ProjectCards from "@/components/ProjectsPage/ProjectCards";
+import BlogSection from "@/components/BlogsPage/BlogSection";
 import Footer from "@/components/universal/Footer";
 import Header from "@/components/universal/Header";
 import { constructMetadata } from "@/lib/metadata";
 import React from "react";
 
 export const metadata = constructMetadata({
-  title: "Projects | Siddhesh Lakhani",
+  title: "Blogs | Siddhesh Lakhani",
   description:
-    "Discover the innovative projects by Siddhesh Lakhani, where tech meets creativity. Explore my work on web development, machine learning, and game design.",
-  url: "https://sidlakhani.tech/projects",
+    "Explore insightful blogs by Siddhesh Lakhani, where technology, coding, and design come together. Dive deep into innovative concepts and trends shaping the future of tech.",
+  url: "https://sidlakhani.tech/blogs",
 });
+
 
 export default function Page() {
   return (
     <div className="min-h-screen">
       <Header />
-      <ProjectCards />
+      <BlogSection />
       <Footer />
     </div>
   );

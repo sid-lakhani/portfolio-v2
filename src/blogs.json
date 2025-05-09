@@ -1,0 +1,17 @@
+{
+    "from-cpp-errors-to-linux-terminals-the-road-that-taught-me-to-build": {
+        "id": 1,
+        "title": "From C++ Errors to Linux Terminals: The Road That Taught Me to Build",
+        "description": "A personal journey through debugging C++ nightmares, mastering the Linux terminal, and growing into a full-stack developer — a story of grit, curiosity, and building things that matter.",
+        "blogContent": "/blogs/from-cpp-errors-to-linux-terminals-the-road-that-taught-me-to-build.md",
+        "slugUrl": "from-cpp-errors-to-linux-terminals-the-road-that-taught-me-to-build",
+        "date": "May 10, 2025",
+        "tags": [
+            "c++",
+            "linux",
+            "web-development",
+            "journey",
+            "programming"
+        ]
+    }
+}

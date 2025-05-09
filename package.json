@@ -26,6 +26,9 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-intersection-observer": "^9.15.1",
+    "react-markdown": "^10.1.0",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.1",
     "svg-path-commander": "^2.1.10",
     "tailwind-merge": "^3.0.2",
     "tailwindcss-animate": "^1.0.7"
