@@ -98,6 +98,14 @@ export const projects = [
     github: "https://github.com/sid-lakhani/fer-ml",
   },
   {
+    title: "Auto-Selfie",
+    description:
+      "An AI-powered tool that automatically captures selfies when it detects a smile using computer vision. Built with OpenCV, it ensures hands-free, real-time photo capture based on facial emotion recognition.",
+    image: "/projects/auto-selfie.png",
+    website: null,
+    github: "https://github.com/sid-lakhani/Auto-Selfie",
+  },
+  {
     title: "TaskCanvas",
     description:
       "A minimalist task management web app for adding, deleting, and marking tasks as complete. Built with a clean UI for efficient productivity tracking.",
