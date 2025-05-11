@@ -24,7 +24,7 @@ It was tough. But something clicked. Maybe it was the repetition or just getting
 
 Still, it didn’t feel creative. It was all logic, no visuals. I could solve problems, but I didn’t feel like I was *building* something tangible.
 
-That’s when I discovered **Next.js** and **Tailwind CSS**.
+That’s when I discovered [**Next.js**](https://nextjs.org/) and [**Tailwind CSS**](https://tailwindcss.com/).
 
 ## Discovering Web Dev
 
@@ -42,9 +42,9 @@ Web dev gave me what C++ didn’t: visual feedback, creativity, and flow. I coul
 
 ## My Linux Journey
 
-Linux became my go-to OS for development due to its flexibility, control, and customization options. I started with **Garuda Linux**, an Arch-based distro that combined performance with ease of use. Its rolling release model kept me up to date with the latest software, and its pre-configured setup allowed me to focus on coding rather than configuration.
+Linux became my go-to OS for development due to its flexibility, control, and customization options. I started with [**Garuda Linux**](https://garudalinux.org/), an Arch-based distro that combined performance with ease of use. Its rolling release model kept me up to date with the latest software, and its pre-configured setup allowed me to focus on coding rather than configuration.
 
-A key part of my workflow has been **Fish shell**, which offers features like auto-suggestions and syntax highlighting, making my terminal experience smoother. Soon, I plan to shift to Arch Linux for even more control and customization. The idea of building my system from the ground up excites me, and I’m looking forward to exploring the Arch community and deeper **FOSS** contributions.
+A key part of my workflow has been [**Fish shell**](https://fishshell.com/), which offers features like auto-suggestions and syntax highlighting, making my terminal experience smoother. Soon, I plan to shift to **Arch Linux** for even more control and customization. The idea of building my system from the ground up excites me, and I’m looking forward to exploring the Arch community and deeper **FOSS** contributions.
 
 FOSS and Libre software have been central to my journey—empowering me to modify, distribute, and improve tools I use every day. Whether it’s setting up Docker containers or configuring Nginx, Linux has become a powerful platform for experimenting, troubleshooting, and optimizing my development process.
 
@@ -54,7 +54,7 @@ While I was deep into web dev, Python quietly became part of the picture. Clean,
 
 I started with basic automation and scripts, then stumbled into **machine learning**. And it blew my mind. Suddenly, code wasn’t just doing what I told it to—it was learning patterns, making predictions. It felt futuristic.
 
-With **OpenCV**, I watched code process visual data—detecting faces, tracking movement, recognizing gestures. I went from styling buttons to understanding how machines “see.” It was a leap, and I was hooked.
+With [**OpenCV**](https://opencv.org/), I watched code process visual data—detecting faces, tracking movement, recognizing gestures. I went from styling buttons to understanding how machines “see.” It was a leap, and I was hooked.
 
 This journey culminated in two machine learning projects hosted on my GitHub:    
 

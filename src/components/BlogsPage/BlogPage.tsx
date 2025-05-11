@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import blogsData from "@/blogs.json";
+import blogsData from "@/blogs/blogs.json";
 import Header from "../universal/Header";
 import Footer from "../universal/Footer";
 import MarkdownRenderer from "./MarkdownRenderer";
