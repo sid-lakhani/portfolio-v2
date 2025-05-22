@@ -1,4 +1,5 @@
 import { Github, Instagram, Linkedin } from "lucide-react";
+import { FaShopify } from "react-icons/fa";
 import {
   SiReact,
   SiNextdotjs,
@@ -30,6 +31,8 @@ import {
   SiPostman,
   SiBlender,
 } from "react-icons/si";
+
+import { DiRuby } from "react-icons/di";
 
 export const navLinks = [
   {
@@ -105,14 +108,6 @@ export const projects = [
     website: null,
     github: "https://github.com/sid-lakhani/Auto-Selfie",
   },
-  {
-    title: "TaskCanvas",
-    description:
-      "A minimalist task management web app for adding, deleting, and marking tasks as complete. Built with a clean UI for efficient productivity tracking.",
-    image: "/projects/TaskCanvas.jpg",
-    website: "https://taskcanvas.sidlakhani.tech",
-    github: "https://github.com/sid-lakhani/TaskCanvas-Hackathon",
-  },
 ];
 
 export const skills = {
@@ -133,6 +128,7 @@ export const skills = {
     { name: "Docker", icon: SiDocker },
     { name: "Firebase", icon: SiFirebase },
     { name: "Supabase", icon: SiSupabase },
+    { name: "Ruby", icon: DiRuby}
   ],
   devops: [
     { name: "Nginx", icon: SiNginx },
@@ -152,7 +148,8 @@ export const skills = {
   misc: [
     { name: "Canva", icon: SiCanva },
     { name: "Unreal Engine", icon: SiUnrealengine },
-    { "name": "Blender", icon: SiBlender },
+    { name: "Blender", icon: SiBlender },
     { name: "Figma", icon: SiFigma },
+    { name: "Shopify", icon: FaShopify },
   ],
 };
