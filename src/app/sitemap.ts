@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://sidlakhani.tech";
+  const baseUrl = "https://sidlakhani.in";
 
   const pages = [
     "/",

@@ -8,7 +8,7 @@ export const metadata = constructMetadata({
   title: "About | Siddhesh Lakhani",
   description:
     "Learn more about Siddhesh Lakhani, a computer engineering student with a passion for technology, innovation, and solving real-world challenges through code and design.",
-  url: "https://sidlakhani.tech/about",
+  url: "https://sidlakhani.in/about",
 });
 
 

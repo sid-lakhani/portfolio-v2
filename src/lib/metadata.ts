@@ -11,8 +11,8 @@ type MetadataProps = {
 export const constructMetadata = ({
   title = "Siddhesh Lakhani - Full Stack Developer",
   description = "Explore the portfolio of Siddhesh Lakhani, a passionate full stack developer and technology enthusiast. Discover projects and insights into the world of coding and innovation.",
-  url = process.env.NEXT_PUBLIC_SITE_URL ?? "https://sidlakhani.tech",
-  image = "https://sidlakhani.tech/open-graph/poster-1.png",
+  url = process.env.NEXT_PUBLIC_SITE_URL ?? "https://sidlakhani.in",
+  image = "https://sidlakhani.in/open-graph/poster-1.png",
 }: MetadataProps): Metadata => ({
   title: title,
   verification: {

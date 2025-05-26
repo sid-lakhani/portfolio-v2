@@ -13,7 +13,7 @@ export async function generateMetadata(props: { params: Promise<{ slugUrl: strin
     description:
       blog?.description ??
       "Explore insightful blogs by Siddhesh Lakhani, where technology, coding, and design come together. Dive deep into innovative concepts and trends shaping the future of tech.",
-    url: `https://sidlakhani.tech/blogs/${slugUrl}`,
+    url: `https://sidlakhani.in/blogs/${slugUrl}`,
   });
 }
 

@@ -8,7 +8,7 @@ export const metadata = constructMetadata({
   title: "Blogs | Siddhesh Lakhani",
   description:
     "Explore insightful blogs by Siddhesh Lakhani, where technology, coding, and design come together. Dive deep into innovative concepts and trends shaping the future of tech.",
-  url: "https://sidlakhani.tech/blogs",
+  url: "https://sidlakhani.in/blogs",
 });
 
 

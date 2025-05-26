@@ -83,6 +83,6 @@ It wasn’t a straight path. It was full of detours, errors, confusion, and pivo
 
 That’s what being a developer is about—not knowing everything, but being willing to figure it out.
 
-You can check out my skills at [/skills](https://sidlakhani.tech/skills), explore my other projects at [/projects](https://sidlakhani.tech/projects), or get my detailed resume at [/Resume](https://sidlakhani.tech/Resume.pdf).
+You can check out my skills at [/skills](../skills), explore my other projects at [/projects](../projects), or get my detailed resume at [/Resume](../Resume.pdf).
 
 This is just the beginning.

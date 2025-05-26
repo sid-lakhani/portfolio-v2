@@ -8,7 +8,7 @@ export const metadata = constructMetadata({
   title: "Projects | Siddhesh Lakhani",
   description:
     "Discover the innovative projects by Siddhesh Lakhani, where tech meets creativity. Explore my work on web development, machine learning, and game design.",
-  url: "https://sidlakhani.tech/projects",
+  url: "https://sidlakhani.in/projects",
 });
 
 export default function Page() {
