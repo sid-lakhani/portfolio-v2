@@ -89,7 +89,7 @@ export const projects = [
     description:
       "A stock market dashboard showcasing UI/UX design for portfolio management and trading. Built with Next.js, but live stock data is not fully functional.",
     image: "/projects/stockwise.svg",
-    website: "https://stockwise.sidlakhani.tech",
+    website: "https://stockwise.sidlakhani.in",
     github: "https://github.com/sid-lakhani/StockWise",
   },
   {
