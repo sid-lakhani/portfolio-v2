@@ -64,14 +64,16 @@ export default function BlogPage({ slugUrl }: { slugUrl: string }) {
   }, [slugUrl]);
 
   if (!blog) {
-    return (
-      <div>
-        <Header />
-        <p className="text-center mt-20">Blog not found or loading...</p>
-        <Footer />
-      </div>
-    );
-  }
+  return (
+    <div className="flex flex-col min-h-screen w-full">
+      <Header />
+      <main className="flex-grow flex items-center justify-center">
+        <p className="text-center text-lg font-semibold">Blog loading...</p>
+      </main>
+      <Footer />
+    </div>
+  );
+}
 
   return (
     <>

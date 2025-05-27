@@ -55,7 +55,7 @@ export default function Header() {
             <DropdownMenuSeparator />
             {navLinks.map((link) => (
               <DropdownMenuItem key={link.url} className="font-poppins">
-                <Link href={link.url}>{link.name}</Link>
+                <Link href={link.url} className="w-full">{link.name}</Link>
               </DropdownMenuItem>
             ))}
             <DropdownMenuSeparator />
@@ -65,7 +65,7 @@ export default function Header() {
             <DropdownMenuSeparator />
             {socials.map((social) => (
               <DropdownMenuItem key={social.url}>
-                <Link href={social.url} className="flex items-center gap-2 font-poppins">
+                <Link href={social.url} className="flex w-full items-center gap-2 font-poppins">
                   <social.logo className="size-4 md:size-5" />
                   {social.name}
                 </Link>
