@@ -41,7 +41,7 @@ export default function Hero() {
             width={400}
             height={400}
             alt="Hero"
-            className="rounded-full object-contain"
+            className="object-contain"
           />
         </div>
       </div>
