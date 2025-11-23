@@ -21,8 +21,7 @@ export default function ProjectCards() {
                 src={project.image}
                 alt={project.title}
                 layout="fill"
-                objectFit="cover"
-                className="rounded-lg border border-black/10 dark:border-white/10"
+                className="onject-cover rounded-lg border border-black/10 dark:border-white/10"
               />
             </div>
             <h3 className="text-xl font-semibold mt-4">{project.title}</h3>

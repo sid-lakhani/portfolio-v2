@@ -77,12 +77,26 @@ export const socials = [
 
 export const projects = [
   {
+    title:"DWM Dots",
+    description:"A minimal and customized configuration for my riced Arch Linux using the Dynamic Window Manager (DWM) and the Suckless toolset.",
+    image: "/projects/dwm-dots.png",
+    website: null,
+    github: "https://github.com/sid-lakhani/dwm-dots",
+  },
+  {
     title: "Label Jui Lakhani",
     description:
       "A luxury fashion brand showcase website, self-hosted on a VPS with Nginx and Strapi CMS. Built for seamless content management and optimized performance.",
     image: "/projects/labeljuilakhani.png",
     website: "https://labeljuilakhani.in",
     github: null,
+  },
+  {
+    title:"VaultX",
+    description:"A full-stack secure storage platform that proves encrypted cloud storage, searchable data, and tamper-proof auditing can live under one roof. Built with FastAPI, Next.js, and PostgreSQL, the system handles all encryption and verification internally — no external key managers, no third-party crypto.",
+    image: "/projects/vaultx.png",
+    website: null,
+    github: "https://github.com/sid-lakhani/vaultx",
   },
   {
     title: "StockWise",
