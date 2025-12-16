@@ -30,6 +30,9 @@ import {
   SiDocker,
   SiPostman,
   SiBlender,
+  SiRust,
+  SiZsh,
+  SiAstro,
 } from "react-icons/si";
 
 import { DiRuby } from "react-icons/di";
@@ -77,34 +80,28 @@ export const socials = [
 
 export const projects = [
   {
-    title:"DWM Dots",
-    description:"A minimal and customized configuration for my riced Arch Linux using the Dynamic Window Manager (DWM) and the Suckless toolset.",
-    image: "/projects/dwm-dots.png",
-    website: null,
-    github: "https://github.com/sid-lakhani/dwm-dots",
-  },
-  {
-    title: "Label Jui Lakhani",
+    title: "Urja N Sonpal",
     description:
-      "A luxury fashion brand showcase website, self-hosted on a VPS with Nginx and Strapi CMS. Built for seamless content management and optimized performance.",
-    image: "/projects/labeljuilakhani.png",
-    website: "https://labeljuilakhani.in",
+      "An E-Commerce website built for a brand, self-hosted on a VPS with Nginx and PocketBase as CMS. Built with Next.js, NodeJS PostgreSQL.",
+    image: "/projects/urjansonpal.png",
+    website: "https://urjansonpal.com",
     github: null,
   },
   {
-    title:"VaultX",
-    description:"A full-stack secure storage platform that proves encrypted cloud storage, searchable data, and tamper-proof auditing can live under one roof. Built with FastAPI, Next.js, and PostgreSQL, the system handles all encryption and verification internally — no external key managers, no third-party crypto.",
+    title: "VaultX",
+    description:
+      "A full-stack secure storage platform that proves encrypted cloud storage, searchable data, and tamper-proof auditing can live under one roof. Built with FastAPI, Next.js, and PostgreSQL, the system handles all encryption and verification internally — no external key managers, no third-party crypto.",
     image: "/projects/vaultx.png",
     website: null,
     github: "https://github.com/sid-lakhani/vaultx",
   },
   {
-    title: "StockWise",
+    title: "DWM Dots",
     description:
-      "A stock market dashboard showcasing UI/UX design for portfolio management and trading. Built with Next.js, but live stock data is not fully functional.",
-    image: "/projects/stockwise.svg",
-    website: "https://stockwise.sidlakhani.in",
-    github: "https://github.com/sid-lakhani/StockWise",
+      "A minimal and customized configuration for my riced Arch Linux using the Dynamic Window Manager (DWM) and the Suckless toolset.",
+    image: "/projects/dwm-dots.png",
+    website: null,
+    github: "https://github.com/sid-lakhani/dwm-dots",
   },
   {
     title: "Facial Emotion Recognition",
@@ -113,6 +110,22 @@ export const projects = [
     image: "/projects/fer.png",
     website: null,
     github: "https://github.com/sid-lakhani/fer-ml",
+  },
+  {
+    title: "Label Jui Lakhani",
+    description:
+      "A luxury fashion brand showcase website built for a client, self-hosted on a VPS with Nginx and Strapi CMS. Built for seamless content management and optimized performance.",
+    image: "/projects/labeljuilakhani.png",
+    website: "https://labeljuilakhani.in",
+    github: null,
+  },
+  {
+    title: "StockWise",
+    description:
+      "A stock market dashboard showcasing UI/UX design for portfolio management and trading. Built with Next.js, but live stock data is not fully functional.",
+    image: "/projects/stockwise.svg",
+    website: "https://stockwise.sidlakhani.in",
+    github: "https://github.com/sid-lakhani/StockWise",
   },
   {
     title: "Auto-Selfie",
@@ -130,40 +143,33 @@ export const skills = {
     { name: "React", icon: SiReact },
     { name: "JavaScript", icon: SiJavascript },
     { name: "TypeScript", icon: SiTypescript },
+    { name: "Astro", icon: SiAstro },
     { name: "Tailwind CSS", icon: SiTailwindcss },
     { name: "CSS3", icon: SiCss3 },
     { name: "HTML5", icon: SiHtml5 },
-    { name: "Framer Motion", icon: SiFramer },
   ],
   backend: [
     { name: "PostgreSQL", icon: SiPostgresql },
     { name: "Python", icon: SiPython },
     { name: "C++", icon: SiCplusplus },
-    { name: "Docker", icon: SiDocker },
-    { name: "Firebase", icon: SiFirebase },
-    { name: "Supabase", icon: SiSupabase },
-    { name: "Ruby", icon: DiRuby}
+    { name: "Rust", icon: SiRust },
   ],
   devops: [
+    { name: "Docker", icon: SiDocker },
     { name: "Nginx", icon: SiNginx },
     { name: "Linux", icon: SiLinux },
     { name: "Bash", icon: SiGnubash },
-    { name: "Fish", icon: SiFishshell }, 
-    { name: "PM2", icon: SiPm2 }, 
+    { name: "Zsh", icon: SiZsh },
+    { name: "PM2", icon: SiPm2 },
+    { name: "Git", icon: SiGit },
   ],
   tools: [
-    { name: "Git", icon: SiGit },
     { name: "GitHub", icon: SiGithub },
     { name: "Vercel", icon: SiVercel },
-    { name: "Postman", icon: SiPostman }, 
-    { name: "Clerk", icon: SiClerk },
-    { name: "Strapi", icon: SiStrapi },
+    { name: "Postman", icon: SiPostman },
   ],
   misc: [
     { name: "Canva", icon: SiCanva },
-    { name: "Unreal Engine", icon: SiUnrealengine },
-    { name: "Blender", icon: SiBlender },
     { name: "Figma", icon: SiFigma },
-    { name: "Shopify", icon: FaShopify },
   ],
 };
