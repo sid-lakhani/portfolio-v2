@@ -63,17 +63,17 @@ export const navLinks = [
 export const socials = [
   {
     name: "Github",
-    url: "https://github.sidlakhani.in/",
+    url: "https://github.com/sid-lakhani/",
     logo: Github,
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.sidlakhani.in/",
+    url: "https://linkedin.com/in/siddhesh-lakhani/",
     logo: Linkedin,
   },
   {
     name: "Instagram",
-    url: "https://instagram.sidlakhani.in/",
+    url: "https://instagram.com/sidlakhani_/",
     logo: Instagram,
   },
 ];
