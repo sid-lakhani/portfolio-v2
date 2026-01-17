@@ -79,6 +79,14 @@ export const projects = [
     github: null,
   },
   {
+    title: "pico - color picker",
+    description:
+      "Minimal X11 color picker built in Rust — click anywhere to instantly pick a color, copy it to clipboard, and keep your workflow fast & clean. Published as an AUR package.",
+    image: "/projects/pico.png",
+    website: "https://aur.archlinux.org/packages/pico-color-picker",
+    github: "https://github.com/sid-lakhani/pico",
+  },
+  {
     title: "VaultX",
     description:
       "A full-stack secure storage platform that proves encrypted cloud storage, searchable data, and tamper-proof auditing can live under one roof. Built with FastAPI, Next.js, and PostgreSQL, the system handles all encryption and verification internally — no external key managers, no third-party crypto.",
