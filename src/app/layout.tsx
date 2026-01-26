@@ -33,8 +33,8 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <script
           defer
-          src="https://cloud.umami.is/script.js"
-          data-website-id="0868d5da-1ba5-449a-b831-325374a721d5"
+          src="https://analytics.sidlakhani.in/script.js"
+          data-website-id="27ac714c-4691-431d-8eb1-1828743b7be2"
         ></script>
       </head>
       <body
